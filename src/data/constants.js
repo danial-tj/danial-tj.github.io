@@ -5,6 +5,8 @@ import postman from "../images/postman-logo.svg";
 import UBC from "../images/ubc-logo.jpg";
 import Langara from "../images/Langara-logo.jpg";
 import droneOverview from "../images/drone-overview.png";
+import cosmicZoom from "../images/CosmicZoom.jpg";
+import aiMoodChecker from "../images/AIMoodChecker.png";
 
 
 
@@ -161,6 +163,55 @@ export const projects = [
     category: "Full-Stack",
     github: "https://github.com/Teejay021/Drone_P",
   },
+  {
+    id: 1,
+    title: "Cosmic Zoom",
+    date: "Jan 2025",
+    description:
+      "The NW Hacks 2025 project is a cutting-edge full-stack web application that pushes the boundaries of interactivity and design. Developed with Next.js, React, and TypeScript on the frontend and Node.js on the backend, it integrates 3D assets and immersive UI components to deliver a rich, dynamic experience. Crafted for hackathon innovation, the platform highlights creativity, technical depth, and modern web practices in a polished, interactive showcase.",
+    image: cosmicZoom,
+    tags: [
+      "JavaScript",
+      "Next.js",
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "TypeScript",
+      "Flask",
+      "Three.js",
+      "OAuth",
+      "Tailwind CSS",
+    ],
+    category: "Full-Stack",
+    github: "https://github.com/Teejay021/nwhacks2025",
+
+
+
+  },
+
+  {
+    id: 2,
+    title: "AI-Mood-Checker",
+    date: "July 2025",
+    description:
+      "The AI Mood Checker is an elegant desktop application designed to help users track their emotional well-being. By combining JavaFX’s modern UI, SQLite-powered persistence, and interactive visualizations, it empowers users to log daily moods, write reflections, and gain insights into long-term trends. Built with a clean MVC architecture, the app blends functionality with simplicity, making it both a practical tool and a showcase of professional Java development.",
+    image: aiMoodChecker,
+    tags: [
+      "Java",
+      "JavaFX",
+      "SQLite",
+      "FXML",
+      "MVC",
+      "Maven",
+      "JDK 24 / JavaFX SDK 24",
+      "CSS",
+      "Batch Scripts"
+
+    ],
+    category: "Desktop App",
+    github: "https://github.com/Teejay021/ai-mood-checker",
+
+  }
   
 ];
 
