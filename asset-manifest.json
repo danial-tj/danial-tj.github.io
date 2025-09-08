@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.8053d522.js",
+    "main.js": "/static/js/main.07885d9f.js",
     "static/media/drone-overview.png": "/static/media/drone-overview.e052f630671f8efa354e.png",
+    "static/media/AIMoodChecker.png": "/static/media/AIMoodChecker.b47b968a4da30bf97ba4.png",
+    "static/media/CosmicZoom.jpg": "/static/media/CosmicZoom.9908191b385feca42be0.jpg",
     "static/media/HeroImage.jpg": "/static/media/HeroImage.b066337821b743f00bc6.jpg",
     "static/media/ubc-logo.jpg": "/static/media/ubc-logo.c736a8a6d70ee55fa1db.jpg",
     "static/media/Langara-logo.jpg": "/static/media/Langara-logo.654f9a610cece5b95ed2.jpg",
@@ -10,10 +12,10 @@
     "static/media/tailwindcss.svg": "/static/media/tailwindcss.79614a5f61617ba49a0891494521226b.svg",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.8053d522.js.map": "/static/js/main.8053d522.js.map"
+    "main.07885d9f.js.map": "/static/js/main.07885d9f.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.8053d522.js"
+    "static/js/main.07885d9f.js"
   ]
 }
