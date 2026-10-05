@@ -1,0 +1,32 @@
+{
+  "tool": "Built-in ImageGen",
+  "asset": "assets/explorer-sprites-v1.png",
+  "format": "RGBA PNG, 1536x1024, 4 columns x 2 rows",
+  "prompts": [
+    "Use case: stylized-concept. Create a production-ready transparent pixel-art CHARACTER SPRITE SHEET for an original Vancouver side-scrolling portfolio game. EXACTLY 8 full-body sprites of the SAME original male young-adult city explorer, arranged on a perfectly regular FOUR COLUMNS by TWO ROWS grid, all facing RIGHT, genuine transparent background (alpha), no labels, no grid lines, no ground or shadows. Each character centered in its own equal cell with generous clear gutter, identical scale, feet on the same baseline relative to the cell, no overlapping cells, no cutoff. Wide landscape 3:2 canvas, 4 columns x 2 rows. Character is stylish and expressive, premium 16-bit indie adventure game pixel art, approximately 48 by 72 authored pixels per character enlarged with hard nearest-neighbor square pixels. Distinctive non-blocky silhouette, organic pixel clusters and clean 1-2 pixel dark outline, controlled 20-color palette, NO blurred edges, NO smooth vector art, NO 3D voxel/Minecraft blocks. A recognizable cool hero: tousled curly near-black hair with a windswept front tuft, warm medium skin tone, confident relaxed face in side/three-quarter profile, visible dark eyebrow and eye and distinct nose. Cropped dark navy technical rain jacket open over a warm ivory T-shirt, burnt-orange compact backpack with a bright orange shoulder strap, charcoal loose cargo trousers with subtle knee folds, chunky ivory sneakers with tiny rust-orange heel accents. Backpack should be a readable warm-orange shape behind torso, not huge. Simple teal jacket lining accent. Stylized adult proportions, head about one quarter total height, not oversized toddler head. Dynamic natural shoulders and arms, capable young creative explorer, fashionable but approachable. Beautiful professional videogame sprite with selective warm highlights, darker rear limbs for depth. Top row cells 1-4: four consecutive right-facing walk-cycle poses in exact order: right foot forward contact, passing with right leg back and left leg planted, left foot forward contact, opposite passing. Lower row cells 5-8: repeat SAME four walk-cycle poses with subtle in-between leg/arm variations for a smooth eight-frame cycle. Alternate natural opposite arm swing, backpack stays stable, strong distinct leg silhouettes. Every sprite must keep face, hairstyle, jacket, backpack and clothing IDENTICAL, same scale, same foot baseline; only limbs and one-pixel torso bob change. NO weapons, swords, hats, sunglasses, headphones, text, symbols, logos, extra accessories, extra characters, scenic background, ground, contact shadows or scenery. This image is the actual asset used in a game, not a presentation board.",
+    "EDIT THIS EXACT SPRITE SHEET. Keep the exact character design, face, navy jacket, orange backpack, dark curly hairstyle, pixel rendering, transparent alpha background, same 4-column by 2-row grid, identical size in each cell. Correct ONLY the animation poses. Current poses repeat similar wide strides. We need distinct and anatomically coherent poses with identical body heights. Frame 1 (TOP LEFT): IDLE STANDING upright relaxed, BOTH feet planted under hips, legs almost straight, hands relaxed, no spread walking stride. Frame 2 (TOP SECOND): WALK CONTACT A, near/front visible leg reaching FORWARD to RIGHT with heel down, far/rear leg extended BACK to LEFT with toe down, arms counter-swung. Frame 3 (TOP THIRD): WALK PASSING A, near leg vertical directly under body carrying weight, far leg BENT at knee and lifted off ground, feet close together horizontally. Frame 4 (TOP RIGHT): WALK CONTACT B, near/front visible leg extended BACK toward LEFT with toe down, far/rear leg extended FORWARD toward RIGHT with heel down, arms reversed from frame 2. Frame 5 (BOTTOM LEFT): WALK PASSING B, far leg vertical under body carrying weight, near leg BENT at knee and swinging forward off ground, feet close together horizontally. Frame 6 (BOTTOM SECOND): same as frame 2. Frame 7 (BOTTOM THIRD): same as frame 3. Frame 8 (BOTTOM RIGHT): same as frame 4. Strictly preserve skin, clothing, hairstyle, face and outline across all frames. Feet must rest on identical baseline within all cells, top of hair same y except one-pixel walking bob. Strictly single transparent asset, no labels, no ground, no shadows, no background. Maintain authentic hard-edged pixel art. Do not add decorative elements."
+  ],
+  "runtime": {
+    "idleFrame": 0,
+    "walkFrames": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cellWidth": 384,
+    "cellHeight": 512,
+    "torsoAnchorX": 176,
+    "feetBaselines": [
+      486,
+      486,
+      486,
+      486,
+      478,
+      478,
+      478,
+      478
+    ],
+    "visibleHeightLogicalPixels": 84
+  }
+}

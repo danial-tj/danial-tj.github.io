@@ -1,0 +1,25 @@
+{
+  "tool": "Built-in ImageGen",
+  "asset": "assets/danial-streetwear-v3.png",
+  "reference": "assets/danial-sprites-v2.png",
+  "prompt": "Use case: pixel-art sprite wardrobe edit. EDIT the attached game sprite sheet ONLY TO IMPROVE THE CHARACTER'S OUTFIT. Keep his EXACT face, short dark curly hair, brows, nose, moustache, stubble, skin tone, body proportions, all eight existing poses, regular 4-column by 2-row layout, transparency, and 1536x1024 dimensions. This is the same real-person-inspired character; do not alter identity. New outfit: modern understated Vancouver streetwear with strong fitted silhouette. Boxy cropped washed CHARCOAL BLACK bomber jacket, hoodless with low ribbed collar, dropped shoulders, ribbed cuffs and waistband, partially open front with a restrained thin silver zipper, clean WHITE crew-neck tee showing below/open front. Confident relaxed straight-leg OLIVE GREEN cargo trousers, wider through thigh, crisp understated single utility pocket, fabric drapes naturally and lightly stacks over shoes; no tight ankle cuffs, no balloon pant legs. CREAM/ivory low-top retro trainers with dark charcoal side panels and a thin warm gum sole, stylish natural size rather than huge chunky clown sneakers. A small BLACK nylon crossbody sling pouch with thin black diagonal strap replaces the bulky orange backpack entirely, keeps the back silhouette clean; tiny silver clasp. A subtle thin silver neck chain is visible over the tee. NO bright orange backpack or orange straps, NO navy jacket, NO teal lining. Palette: charcoal, white, washed olive, ivory, tiny warm gum sole accents. Expressive but tasteful, clean fashionable city fit, not tactical military equipment or hiking gear. Preserve the original high-quality 16-bit hard-edged pixel-art style, clear pixel clusters, restrained highlights and dark outline. Clothing must be EXACTLY consistent across all frames, only drape and folds adapt to the existing limb pose. Do not change the legs' placement/stride or arm poses. Top-left frame is relaxed upright IDLE with both feet under hips. Top second stride, top third passing with lifted rear foot, top fourth opposite stride, bottom left opposite passing; remaining poses as in original. Every full-body sprite is centered at same original torso x176 in each 384x512 cell. Maintain original boot baselines approximately487 top row /480 bottom row. NO additions outside characters: no background, no ground or shadows, no labels, no grid, no borders, no logos. Genuine transparent alpha. Output game-ready 8-pose sprite atlas only.",
+  "frameLayout": {
+    "width": 1536,
+    "height": 1024,
+    "columns": 4,
+    "rows": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "rowFootBaselines": [
+      487,
+      480
+    ],
+    "torsoAnchorX": 176,
+    "scale": "84 / 458"
+  }
+}

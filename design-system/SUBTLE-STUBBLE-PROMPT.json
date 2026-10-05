@@ -1,0 +1,26 @@
+{
+  "tool": "Built-in ImageGen",
+  "asset": "assets/danial-subtle-stubble-v6.png",
+  "reference": "assets/danial-vancouver-casual-v5.png",
+  "userPreference": "The moustache should be lighter and narrower; subtle short beard stubble along cheeks, jaw and chin.",
+  "prompt": "Use case: identity-preserve precise pixel-art facial-hair correction. EDIT TARGET: the attached complete eight-frame character sprite sheet. The user says the moustache in this version is too thick and he has a subtle beard. Make a very small localized edit to FACIAL HAIR ONLY, identically in all eight frames. Replace the prominent solid black moustache stripe with a VERY THIN, LIGHT, SPARSE moustache: just a few low-contrast warm charcoal-brown pixels above the upper lip, clearly separate from the mouth line, about one third the current visual weight. No heavy black horizontal moustache shape. Add subtle evenly trimmed SHORT BEARD STUBBLE as delicate low-contrast warm grey-brown pixel texture along lower cheeks, jawline and chin, a soft translucent-looking five-o'clock shadow with skin still clearly visible. Moustache and short beard should be balanced, discreet and natural, not a full thick beard, not a goatee, not a dark jaw outline. Preserve the exact face structure, nose, mouth, eyes, eyebrows, expression, warm skin tone, dark curly hairstyle, hairline, head position and head scale. Preserve EVERY OTHER PART of the image: charcoal casual zip jacket, white Oxford shirt, navy chinos, white court sneakers, black backpack, body proportions, hands, folds, shoes, all eight poses, anchors, spacing and transparency. Keep the same crisp square-pixel 16-bit sprite style. Exact output atlas1536x1024 RGBA, four columns by two rows of384x512 cells; keep original positions with torso x176 within cells, top-row foot baseline491, bottom-row483. First frame idle, all others original walking poses. No change to clothing, background, layout or overall scale. Genuine transparent alpha background as in source, no painted backdrop or shadows. No labels, logos, text, borders or new objects. Return the complete transparent sprite atlas with only the understated facial-hair refinement.",
+  "frameLayout": {
+    "width": 1536,
+    "height": 1024,
+    "columns": 4,
+    "rows": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "rowFootBaselines": [
+      491,
+      483
+    ],
+    "torsoAnchorX": 176,
+    "scale": "84 / 467"
+  }
+}

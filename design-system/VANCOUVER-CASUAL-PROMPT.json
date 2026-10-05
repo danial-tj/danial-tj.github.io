@@ -1,0 +1,27 @@
+{
+  "tool": "Built-in ImageGen",
+  "asset": "assets/danial-vancouver-casual-v5.png",
+  "reference": "assets/danial-business-casual-v4.png",
+  "userPreference": "Vancouver business casual: navy pants, white court sneakers like On THE ROGER, white Oxford shirt, casual jacket, backpack. Previous blazer outfit too formal.",
+  "footwearReference": "https://www.on.com/en-gb/products/the-roger-advantage-m-3mf3064/mens/white-white-shoes-3MF30641200",
+  "prompt": "Use case: identity-preserve pixel-art game sprite wardrobe edit. Input image: EDIT TARGET, the existing personalized character atlas. Change ONLY clothing, footwear and backpack to the user's Vancouver everyday business-casual outfit. Preserve the exact personalized face, short dense dark curls with tapered sides, strong eyebrows, eyes, straight nose, thin moustache and subtle stubble, skin tone, expression, head scale, body proportions, eight poses and all limb positions. OUTFIT: slim straight NAVY BLUE CHINOS with natural soft folds and no pressed formal crease, no cargo pockets; a crisp WHITE OXFORD BUTTON-DOWN SHIRT with a soft open collar and visible short button placket, worn casually with a simple hem; a CHARCOAL lightweight casual ZIP-FRONT HARRINGTON JACKET worn open, soft small stand/fold collar, simple zip edges, relaxed shoulders, no blazer lapels, no formal tailoring; clean WHITE LOW-TOP COURT SNEAKERS inspired by On THE ROGER Advantage white/white, restrained tennis-shoe silhouette, white uppers, minimal pale grey seam pixels and white rubber soles, normal shoe size, not loafers and not chunky running shoes. A practical slim BLACK COMMUTER BACKPACK worn on both shoulders, rounded rectangular shape and tidy black shoulder straps, readable behind the torso, subtle charcoal highlights, no brown leather. Vancouver young professional heading to a cafe: comfortable casual smart clothes, not dressed for an office boardroom. Navy pants and WHITE SNEAKERS must be unmistakable in every frame. Keep the exact established crisp 16-bit pixel-art style, hard square pixel clusters, clean dark outline and restrained highlights. CONSISTENCY: identical clothes and facial identity in all eight poses. Keep the 1536x1024 RGBA atlas, 4 equal columns by 2 equal rows, each cell384x512. Top-left IDLE standing, other seven original walk poses, original anchors approximately x176 within each cell, original top-row foot baseline490 and bottom-row481. Keep head and feet positions, scale and margins unchanged. Preserve genuine transparent alpha background, no painted backdrop, no ground, no shadows. No text, logos, watermark, tie, blazer, suit, brown shoes, tan pants, cargo pockets, necklace, crossbody bag or props. Output only the complete production-ready transparent eight-frame atlas.",
+  "frameLayout": {
+    "width": 1536,
+    "height": 1024,
+    "columns": 4,
+    "rows": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "rowFootBaselines": [
+      491,
+      483
+    ],
+    "torsoAnchorX": 176,
+    "scale": "84 / 467"
+  }
+}

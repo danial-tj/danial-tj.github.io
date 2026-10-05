@@ -1,0 +1,26 @@
+{
+  "tool": "Built-in ImageGen",
+  "asset": "assets/danial-business-casual-v4.png",
+  "reference": "assets/danial-streetwear-v3.png",
+  "userPreference": "Business casual with a backpack",
+  "prompt": "Use case: pixel-art game sprite wardrobe edit. EDIT the attached sprite atlas to dress this exact same personalized character in BUSINESS CASUAL WITH A BACKPACK, as the user prefers. Change only clothes, shoes and bag. Preserve his exact short dense dark curls with tapered sides, eyebrows, dark eyes, straight nose, thin moustache and light stubble, warm skin, face shape, expression, head scale, body proportions, all eight current body poses and limb positions, exact 4-column by 2-row sprite layout, transparent alpha background, 1536x1024 dimensions. New outfit: tasteful navy-blue unstructured BLAZER with narrow notched lapels, natural fitted shoulders, sleeves to wrist, open front; a very pale LIGHT BLUE Oxford shirt with a clearly visible open COLLAR, top two buttons undone, tucked into tailored TAN/stone chinos with a slim brown leather belt; straight tapered trouser legs with natural walking drape and neat hems, no cargo pockets, no elastic cuffs, no oversized silhouette. Refined medium-dark BROWN leather penny loafers, understated normal-sized shape, dark sole. A sleek structured DARK CHOCOLATE BROWN LEATHER LAPTOP BACKPACK worn on both shoulders with two tidy matching straps; readable backpack volume behind torso, minimal rounded-rectangle silhouette, small handle and subtle seam, no dangling gear. It must clearly be a backpack carried on the back, NOT a crossbody bag, sling or briefcase. Remove the current black diagonal crossbody strap and pouch entirely. No visible necklace. Business casual for a young developer in the city: approachable, put-together, smart without a tie or formal suit. Strong clear navy + light blue + warm stone + brown palette. Consistent outfit details on ALL eight frames, with folds adapting to original gait. Preserve the established high-quality 16-bit pixel-art rendering, hard square pixel clusters, clean dark outlines, no photorealism, no smooth vector art. Top-left frame remains upright neutral standing IDLE with both feet under hips. Top second contact stride, top third passing with rear foot lifted, top fourth opposite contact; bottom-left opposite passing; other bottom walk poses unchanged. Every sprite keeps original torso anchor approximately x176 within its384x512 cell, foot baseline487 in top row and480 in bottom row. Keep same overall scale and precise cell positions. No text, no logos, no tie, no hat, no props, no ground shadows, no scenic background, no labels or borders. Genuine transparency. Output ONLY a production-ready eight-pose game sprite atlas.",
+  "frameLayout": {
+    "width": 1536,
+    "height": 1024,
+    "columns": 4,
+    "rows": 2,
+    "idleFrame": 0,
+    "walkFrames": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "rowFootBaselines": [
+      490,
+      481
+    ],
+    "torsoAnchorX": 176,
+    "scale": "84 / 464"
+  }
+}

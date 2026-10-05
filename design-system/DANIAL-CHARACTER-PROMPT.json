@@ -1,0 +1,31 @@
+{
+  "tool": "Built-in ImageGen",
+  "asset": "assets/danial-sprites-v2.png",
+  "inputs": [
+    {
+      "role": "edit target",
+      "file": "assets/explorer-sprites-v1.png"
+    },
+    {
+      "role": "facial likeness reference",
+      "description": "Photo supplied by Danial in this conversation; original photo is not included in website assets."
+    }
+  ],
+  "prompt": "Use case: identity-preserving pixel-art edit. INPUT IMAGE 1 is the exact existing production sprite sheet to edit. INPUT IMAGE 2 is the user-provided photograph, used ONLY as facial/hair likeness reference; do not reproduce its background or photographic style. Personalize every sprite to resemble the man in reference image 2, keeping the delightful established 16-bit pixel-adventure style. Replace the current fictional swept-spiky hairstyle and youthful anime face with his recognizable visible features: short dense dark curly hair with a textured softly rounded top and closely cropped sides, substantial dark eyebrows, dark eyes, a longer oval face with a defined lean jaw, straight prominent nose, a thin dark moustache, and subtle short stubble along jaw and chin. Warm light-to-medium olive skin, natural and not orange. Calm confident expression. Facial likeness should read at small game-sprite size: hair silhouette, brow, nose and moustache are the most important cues. NO full thick beard. NO large windswept spikes. NO glasses. Preserve ALL body poses, relative positioning, scaling, crop, 4 columns x 2 rows, 1536x1024 canvas and transparent alpha exactly. All eight sprites are the SAME person. Preserve the navy/near-black rain jacket, ivory T-shirt, burnt-orange backpack, dark cargo trousers, and ivory sneakers from input1. Match input1's hard-edged square pixel clusters and dark outlines; do not become photorealistic or painterly. Edit head/hair/neck/skin only; do not redesign clothes, limbs, gait or layout. Top-left is neutral standing idle; top row2 stride, row3 passing, row4 opposite stride; bottom-left opposite passing; remaining bottom frames copies of walking poses, identical to input1. Each frame centered in its existing cell, torso x176 within cell, unchanged foot baselines top row486/bottom row478. No labels, no frames, no ground shadow, no scene, no text, no symbols, no logos. Actual genuine transparent background, clean alpha, no matte or background. Deliver the edited game-ready sprite atlas only.",
+  "frameLayout": {
+    "width": 1536,
+    "height": 1024,
+    "columns": 4,
+    "rows": 2,
+    "idleFrame": 0,
+    "rowFootBaselines": [487, 480],
+    "torsoAnchorX": 176,
+    "scale": "84 / 458",
+    "walkFrames": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in ImageGen",
+  "asset": "assets/projects/project-illustrations-v1.png",
+  "usage": {
+    "top": "Concealed Captioning concept illustration",
+    "bottom": "C++ Trading Bot concept illustration"
+  },
+  "prompt": "Create a single production-ready pixel-art illustration sheet for two developer portfolio project covers. Canvas1536x1024 with EXACTLY TWO equal horizontal panels stacked vertically, each1536x512, no gap or divider. Both panels share the same crisp detailed16-bit pixel-art style as a calm Vancouver adventure-game portfolio: forest green outlines, mint and sage, pale paper highlights, restrained warm amber, no gradients or glow. TOP PANEL: privacy-minded video captioning. A compact video camera on a desk, a small stylized screen showing a simple anonymous silhouette with a pixel mosaic over its face, and two pale caption strips beneath the silhouette; caption strips have abstract short line marks only, no words. Behind it, an understated waterfront window and softly colored mountains. BOTTOM PANEL: a programmer's C++ trading-strategy backtesting workbench. A dark small monitor with a restrained abstract candlestick chart, a few stacked data blocks, a closed notebook and keyboard; the chart alternates small rises/falls with no wealth/profit symbolism. These are obviously illustrated concept vignettes, not actual screenshots or fake product interfaces. Keep both illustrations focused in the center55percent horizontally, with quiet scenic breathing room at either end, beautiful hand-placed square pixel clusters, simple legible silhouettes and editorial composition. No people with identifiable faces, no text, no letters, no numbers, no logos, no labels, no title headings, no UI chrome, no watermark. Hard pixel edges, not painterly, not photorealistic. Entire image opaque.",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "panels": 2
+}
