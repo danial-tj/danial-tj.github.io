@@ -2,11 +2,11 @@
 
 An original pixel-art, scroll-driven portfolio direction for Danial Tajabadipour. A character walks through a Vancouver waterfront setting, stopping along the shoreline, lookout, harbour, and quiet corner. Projects remain available as normal HTML below the walk.
 
-Published at [teejay021.github.io](https://teejay021.github.io/). This is the approved Vancouver portfolio; previous designs remain preserved in Git history and the local design archive.
+Published at [danial-tj.github.io](https://danial-tj.github.io/). This is the approved Vancouver portfolio; previous designs remain preserved in Git history and the local design archive.
 
 ## Publishing
 
-The public source repository is [Teejay021/Teejay021.github.io](https://github.com/Teejay021/Teejay021.github.io). Push approved changes to its `main` branch to publish. The `Publish portfolio` GitHub Actions workflow runs the JavaScript checks, builds `dist`, and deploys only that directory to GitHub Pages. It can also be run manually from the repository's Actions tab. No hosting secrets, dependencies, or separate hosting account are required.
+The public source repository is [danial-tj/danial-tj.github.io](https://github.com/danial-tj/danial-tj.github.io). Push approved changes to its `main` branch to publish. The `Publish portfolio` GitHub Actions workflow runs the JavaScript checks, builds `dist`, and deploys only that directory to GitHub Pages. It can also be run manually from the repository's Actions tab. No hosting secrets, dependencies, or separate hosting account are required.
 
 The former React portfolio is preserved at commit `5909d3db73fb8bd31b26327d01cc720d1f46c6fe`; the former deployed output remains on the `gh-pages` branch at `a246aaedb042654e38177a71e344a1aae0830eac`.
 
