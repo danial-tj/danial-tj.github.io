@@ -11,7 +11,7 @@ const files=[
   'assets/vancouver-geography-v2.png','assets/danial-subtle-stubble-v6.png',
   'assets/projects/concealed-captioning-preview.jpg',
   'assets/projects/aeropilot-preview.jpg','assets/projects/mood-preview.png',
-  'assets/projects/market-indicators.jpg','assets/projects/cosmic.jpg',
+  'assets/projects/market-indicators.jpg','assets/projects/cosmic-preview.png',
   'assets/projects/project-illustrations-v1.png'
 ];
 for(const path of files){
